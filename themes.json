@@ -1,0 +1,67 @@
+{
+  "business_minimal": {
+    "background": "#F8FAFC",
+    "title": "#0F172A",
+    "text": "#334155",
+    "muted": "#64748B",
+    "card_bg": "#FFFFFF",
+    "card_border": "#E2E8F0",
+    "primary": "#1D4ED8",
+    "accent": "#0EA5E9",
+    "margin_top": 0.5,
+    "margin_bottom": 0.45,
+    "line_gap": 0.14
+  },
+  "orange_glass": {
+    "background": "#FFF7ED",
+    "title": "#7C2D12",
+    "text": "#431407",
+    "muted": "#9A3412",
+    "card_bg": "#FFFFFFCC",
+    "card_border": "#FDBA74",
+    "primary": "#EA580C",
+    "accent": "#FB923C",
+    "margin_top": 0.5,
+    "margin_bottom": 0.45,
+    "line_gap": 0.14
+  },
+  "cyber_green": {
+    "background": "#020617",
+    "title": "#A7F3D0",
+    "text": "#6EE7B7",
+    "muted": "#34D399",
+    "card_bg": "#052E2B",
+    "card_border": "#059669",
+    "primary": "#10B981",
+    "accent": "#22C55E",
+    "margin_top": 0.5,
+    "margin_bottom": 0.45,
+    "line_gap": 0.14
+  },
+  "purple_showcase": {
+    "background": "#1E1B4B",
+    "title": "#EDE9FE",
+    "text": "#DDD6FE",
+    "muted": "#C4B5FD",
+    "card_bg": "#312E81",
+    "card_border": "#6366F1",
+    "primary": "#8B5CF6",
+    "accent": "#A78BFA",
+    "margin_top": 0.5,
+    "margin_bottom": 0.45,
+    "line_gap": 0.14
+  },
+  "rose_premium": {
+    "background": "#FFF1F2",
+    "title": "#9F1239",
+    "text": "#881337",
+    "muted": "#BE123C",
+    "card_bg": "#FFFFFF",
+    "card_border": "#FDA4AF",
+    "primary": "#E11D48",
+    "accent": "#F43F5E",
+    "margin_top": 0.5,
+    "margin_bottom": 0.45,
+    "line_gap": 0.14
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "id": "f015536a-d85b-4a4f-84e9-8542803d2256",
+  "revision": 0,
+  "last_node_id": 14,
+  "last_link_id": 8,
+  "nodes": [
+    {
+      "id": 12,
+      "type": "PreviewAny",
+      "pos": [
+        1491.784842038393,
+        603.4117289973182
+      ],
+      "size": [
+        216.4025421173842,
+        156.96381636169394
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "source",
+          "name": "source",
+          "type": "*",
+          "link": 7
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewAny"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 13,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        530.4819544355953,
+        550.9562622750143
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "label": "STRING",
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            8
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "<theme name=\"orange_glass\" />\n<footer text=\"NovaFlow 橙色科技版 | 第 {page}/{total} 页 | {date}\" />\n\n<slide>\n  <layout name=\"default\" />\n  <background color=\"#FFF7ED\" />\n  <title style=\"font-size:44;color:#7C2D12;text-align:居中;\">NovaFlow AI Studio</title>\n\n  <card x=\"0.8\" y=\"0.8\" width=\"1.1\" height=\"1.1\" bg=\"#FFE4D1\" border=\"#FDBA74\" rounded=\"true\" radius=\"0.45\" shadow=\"true\" />\n  <card x=\"11.0\" y=\"5.9\" width=\"0.9\" height=\"0.9\" bg=\"#FFD6B3\" border=\"#FB923C\" rounded=\"true\" radius=\"0.45\" shadow=\"true\" />\n\n  <section x=\"1.4\" y=\"2.0\" width=\"10.0\" height=\"3.9\" bg=\"#FFFFFFCC\" border=\"#FDBA74\" padding=\"0.24\" gap=\"0.14\" shadow=\"true\" rounded=\"true\" radius=\"0.08\">\n    <badge text=\"RELEASE 2.0\" bg=\"#EA580C\" color=\"#FFFFFF\" shadow=\"true\" />\n    <h2 style=\"font-size:24;color:#7C2D12\">智能内容生产与分发中台</h2>\n    <divider color=\"#FDBA74\" />\n    <p style=\"font-size:16;color:#9A3412\">统一生成 Word/PPT、统一下载链接、统一智能体调用协议。</p>\n    <button text=\"进入演示\" bg=\"#F97316\" color=\"#FFFFFF\" shadow=\"true\" />\n  </section>\n</slide>\n\n<slide>\n  <layout name=\"comparison\" />\n  <background color=\"#FFF7ED\" />\n  <title style=\"font-size:34;color:#7C2D12;\">模块能力总览</title>\n\n  <section region=\"left\" x=\"1.0\" y=\"1.4\" width=\"5.1\" height=\"5.2\" bg=\"#FFFFFFCC\" border=\"#FDBA74\" padding=\"0.2\" gap=\"0.12\" shadow=\"true\">\n    <h2 style=\"font-size:21;color:#7C2D12\">核心引擎</h2>\n    <icon name=\"doc\" text=\"Word 自动生成引擎\" color=\"#C2410C\" />\n    <icon name=\"chart\" text=\"PPT 富组件渲染器\" color=\"#C2410C\" />\n    <icon name=\"link\" text=\"下载链接回传链路\" color=\"#C2410C\" />\n    <icon name=\"rocket\" text=\"智能体工作流编排\" color=\"#C2410C\" />\n    <spacer height=\"0.08\" />\n    <callout level=\"info\" title=\"特点\" body=\"纯 HTML 驱动，无需外部图片素材。\" title-color=\"#9A3412\" body-color=\"#431407\" bg=\"#FFF7ED\" border=\"#FDBA74\" />\n  </section>\n\n  <section region=\"right\" x=\"6.3\" y=\"1.4\" width=\"5.1\" height=\"5.2\" bg=\"#FFFFFFCC\" border=\"#FDBA74\" padding=\"0.2\" gap=\"0.12\" shadow=\"true\">\n    <h2 style=\"font-size:21;color:#7C2D12\">状态面板</h2>\n    <card title=\"任务成功率\" body=\"98.9%&#10;持续稳定\" bg=\"#FFF7ED\" border=\"#FED7AA\" title-color=\"#7C2D12\" body-color=\"#431407\" height=\"1.2\" />\n    <card title=\"平均耗时\" body=\"5.4s&#10;P95: 8.0s\" bg=\"#FFF7ED\" border=\"#FED7AA\" title-color=\"#7C2D12\" body-color=\"#431407\" height=\"1.2\" />\n    <card title=\"下载成功率\" body=\"99.3%&#10;内网直链可用\" bg=\"#FFF7ED\" border=\"#FED7AA\" title-color=\"#7C2D12\" body-color=\"#431407\" height=\"1.2\" />\n    <button text=\"查看实时监控\" bg=\"#EA580C\" color=\"#FFFFFF\" shadow=\"true\" />\n  </section>\n</slide>\n\n<slide>\n  <layout name=\"default\" />\n  <background color=\"#FFF7ED\" />\n  <title style=\"font-size:34;color:#7C2D12;\">数据看板</title>\n\n  <section x=\"1.0\" y=\"1.5\" width=\"10.8\" height=\"2.1\" bg=\"#FFFFFFCC\" border=\"#FDBA74\" padding=\"0.18\" gap=\"0.08\" shadow=\"true\">\n    <badge text=\"KPI LIVE\" bg=\"#FB923C\" color=\"#FFFFFF\" />\n    <p style=\"font-size:15;color:#9A3412\">核心指标实时刷新，支持自动导出周报。</p>\n    <button text=\"同步数据\" bg=\"#F97316\" color=\"#FFFFFF\" />\n  </section>\n\n  <section x=\"1.0\" y=\"3.9\" width=\"10.8\" height=\"2.7\" bg=\"#FFFFFFCC\" border=\"#FDBA74\" padding=\"0.18\" gap=\"0.1\" shadow=\"true\">\n    <table\n      columns=\"指标,当前值,目标,状态\"\n      rows=\"生成成功率,98.9%,>=98.5%,达标;平均耗时,5.4s,<=7.0s,达标;下载成功率,99.3%,>=99.0%,达标;模板覆盖率,81%,>=80%,达标\"\n      header-bg=\"#FFE4D1\"\n      stripe-bg=\"#FFFFFF\"\n      border=\"#FDBA74\"\n      header-color=\"#7C2D12\"\n      text-color=\"#431407\" />\n  </section>\n</slide>\n\n<slide>\n  <layout name=\"comparison\" />\n  <background color=\"#FFF7ED\" />\n  <title style=\"font-size:34;color:#7C2D12;\">趋势与风险</title>\n\n  <section region=\"left\" x=\"1.0\" y=\"1.5\" width=\"5.1\" height=\"5.1\" bg=\"#FFFFFFCC\" border=\"#FDBA74\" padding=\"0.2\" gap=\"0.12\" shadow=\"true\">\n    <chart type=\"bar\" title=\"效率提升(%)\" data=\"Word:62,PPT:58,下载链路:91,人工介入减少:47\" bar-color=\"#F97316\" />\n    <chart type=\"progress\" title=\"整体健康度\" data=\"健康度:93\" bar-color=\"#EA580C\" />\n  </section>\n\n  <section region=\"right\" x=\"6.3\" y=\"1.5\" width=\"5.1\" height=\"5.1\" bg=\"#FFFFFFCC\" border=\"#FDBA74\" padding=\"0.2\" gap=\"0.12\" shadow=\"true\">\n    <callout level=\"success\" title=\"稳定项\" body=\"核心链路稳定，无明显抖动。\" title-color=\"#166534\" body-color=\"#431407\" />\n    <callout level=\"warn\" title=\"风险项\" body=\"高峰并发下排队时长上升。\" title-color=\"#92400E\" body-color=\"#431407\" />\n    <callout level=\"error\" title=\"优化项\" body=\"复杂页面内容有溢出风险，需模板约束。\" title-color=\"#B91C1C\" body-color=\"#431407\" />\n    <button text=\"导出风险清单\" bg=\"#EA580C\" color=\"#FFFFFF\" />\n  </section>\n</slide>\n\n<slide>\n  <layout name=\"default\" />\n  <background color=\"#FFF7ED\" />\n  <title style=\"font-size:34;color:#7C2D12;text-align:居中;\">目录与路线图</title>\n\n  <section x=\"1.1\" y=\"1.6\" width=\"10.6\" height=\"2.3\" bg=\"#FFFFFFCC\" border=\"#FDBA74\" padding=\"0.2\" gap=\"0.1\" shadow=\"true\">\n    <toc />\n  </section>\n\n  <section x=\"1.1\" y=\"4.2\" width=\"10.6\" height=\"2.2\" bg=\"#FFFFFFCC\" border=\"#FDBA74\" padding=\"0.2\" gap=\"0.1\" shadow=\"true\">\n    <h2 style=\"font-size:21;color:#7C2D12\">下一步计划</h2>\n    <ul>\n      <li style=\"font-size:15;color:#431407\">扩展行业模板（医疗/教育/电商）</li>\n      <li style=\"font-size:15;color:#431407\">增强自动排版避免出框</li>\n      <li style=\"font-size:15;color:#431407\">智能体提示词规范化输出</li>\n    </ul>\n  </section>\n</slide>\n\n<slide>\n  <layout name=\"default\" />\n  <background color=\"#FFF7ED\" />\n  <title style=\"font-size:42;color:#7C2D12;text-align:居中;\">Thanks</title>\n\n  <section x=\"2.0\" y=\"2.3\" width=\"8.8\" height=\"3.0\" bg=\"#FFFFFFCC\" border=\"#FDBA74\" padding=\"0.22\" gap=\"0.12\" shadow=\"true\">\n    <badge text=\"READY\" bg=\"#EA580C\" color=\"#FFFFFF\" />\n    <p style=\"font-size:18;color:#431407;text-align:居中;\">已支持多主题预设与外置主题配置，可持续扩展风格。</p>\n    <button text=\"生成下一版方案\" bg=\"#F97316\" color=\"#FFFFFF\" shadow=\"true\" />\n  </section>\n</slide>"
+      ]
+    },
+    {
+      "id": 11,
+      "type": "HTMLToPPT",
+      "pos": [
+        994.598528974374,
+        549.2457271126277
+      ],
+      "size": [
+        400,
+        228
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "HTML代码",
+          "name": "HTML代码",
+          "type": "STRING",
+          "widget": {
+            "name": "HTML代码"
+          },
+          "link": 8
+        }
+      ],
+      "outputs": [
+        {
+          "label": "文件路径",
+          "name": "文件路径",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "label": "下载链接",
+          "name": "下载链接",
+          "type": "STRING",
+          "links": [
+            7
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "HTMLToPPT"
+      },
+      "widgets_values": [
+        "<theme name=\"modern_dark\" />\n<footer text=\"深色测试集 | 第 {page}/{total} 页 | {date}\" />\n\n<slide>\n  <layout name=\"default\" />\n  <background color=\"#0F172A\" />\n  <title style=\"font-size:44;color:#F8FAFC;text-align:居中;\">NovaFlow 深色主题测试</title>\n  <section x=\"1.0\" y=\"2.0\" width=\"10.8\" height=\"3.8\" bg=\"#1E293B\" border=\"#334155\" padding=\"0.22\" gap=\"0.14\">\n    <badge text=\"DARK MODE\" bg=\"#1D4ED8\" color=\"#DBEAFE\" />\n    <h2 style=\"font-size:24;color:#FFFFFF;\">目标：验证白字、居中、不出画</h2>\n    <divider color=\"#334155\" />\n    <p style=\"font-size:18;color:#F8FAFC;\">本套示例全部组件使用深色底 + 高对比文字，便于检查可读性。</p>\n    <button text=\"开始检查\" bg=\"#22D3EE\" color=\"#0F172A\" />\n  </section>\n</slide>\n\n<slide>\n  <layout name=\"comparison\" />\n  <background color=\"#0F172A\" />\n  <title style=\"font-size:34;color:#F8FAFC;\">卡片文字颜色测试</title>\n  <section region=\"left\" x=\"1.0\" y=\"1.5\" width=\"5.1\" height=\"5.0\" bg=\"#1E293B\" border=\"#334155\" padding=\"0.18\" gap=\"0.12\">\n    <card title=\"请求量\" body=\"今日 14,280&#10;周环比 +21%\" bg=\"#0F2238\" border=\"#1D4ED8\" title-color=\"#FFFFFF\" body-color=\"#FFFFFF\" height=\"1.35\" />\n    <card title=\"成功率\" body=\"98.9%&#10;目标 >= 98.5%\" bg=\"#0F2E2A\" border=\"#10B981\" title-color=\"#FFFFFF\" body-color=\"#FFFFFF\" height=\"1.35\" />\n    <card title=\"耗时\" body=\"平均 5.4s&#10;P95 8.1s\" bg=\"#2B1E12\" border=\"#F59E0B\" title-color=\"#FFFFFF\" body-color=\"#FFFFFF\" height=\"1.35\" />\n  </section>\n  <section region=\"right\" x=\"6.3\" y=\"1.5\" width=\"5.1\" height=\"5.0\" bg=\"#1E293B\" border=\"#334155\" padding=\"0.18\" gap=\"0.12\">\n    <callout level=\"info\" title=\"说明\" body=\"这里验证 callout 的标题和正文都可强制白字。\" title-color=\"#FFFFFF\" body-color=\"#FFFFFF\" />\n    <callout level=\"success\" title=\"通过标准\" body=\"文字清晰、无发灰、无溢出。\" title-color=\"#FFFFFF\" body-color=\"#FFFFFF\" />\n    <button text=\"继续下一页\" bg=\"#4F46E5\" color=\"#FFFFFF\" />\n  </section>\n</slide>\n\n<slide>\n  <layout name=\"default\" />\n  <background color=\"#0F172A\" />\n  <title style=\"font-size:34;color:#F8FAFC;\">表格文字颜色测试</title>\n  <section x=\"1.0\" y=\"1.5\" width=\"10.8\" height=\"5.0\" bg=\"#1E293B\" border=\"#334155\" padding=\"0.2\" gap=\"0.12\">\n    <table\n      columns=\"模块,状态,说明\"\n      rows=\"HTMLToPPT|稳定|多主题多组件支持;下载链路|稳定|返回可访问下载链接;智能体调用|进行中|模板变量化输出;自动清理|规划中|按天归档策略\"\n      header-bg=\"#23324A\"\n      stripe-bg=\"#162235\"\n      border=\"#334155\"\n      header-color=\"#FFFFFF\"\n      text-color=\"#FFFFFF\" />\n    <button text=\"导出测试报告\" bg=\"#22C55E\" color=\"#FFFFFF\" />\n  </section>\n</slide>\n\n<slide>\n  <layout name=\"comparison\" />\n  <background color=\"#0F172A\" />\n  <title style=\"font-size:34;color:#F8FAFC;\">图表与列表测试</title>\n  <section region=\"left\" x=\"1.0\" y=\"1.5\" width=\"5.1\" height=\"5.0\" bg=\"#1E293B\" border=\"#334155\" padding=\"0.18\" gap=\"0.12\">\n    <chart type=\"bar\" title=\"效率提升(%)\" data=\"Word:62,PPT:58,下载链路:91,人工介入减少:47\" bar-color=\"#22D3EE\" />\n    <p style=\"font-size:15;color:#FFFFFF;\">图表标签使用高亮色，文字保持白色增强对比。</p>\n  </section>\n  <section region=\"right\" x=\"6.3\" y=\"1.5\" width=\"5.1\" height=\"5.0\" bg=\"#1E293B\" border=\"#334155\" padding=\"0.18\" gap=\"0.12\">\n    <h2 style=\"font-size:22;color:#FFFFFF;\">检查项</h2>\n    <ul>\n      <li style=\"font-size:16;color:#FFFFFF;\">标题是否居中且清晰</li>\n      <li style=\"font-size:16;color:#FFFFFF;\">卡片正文是否为白字</li>\n      <li style=\"font-size:16;color:#FFFFFF;\">表格正文是否仍然白字</li>\n      <li style=\"font-size:16;color:#FFFFFF;\">组件是否有越界现象</li>\n    </ul>\n  </section>\n</slide>\n\n<slide>\n  <layout name=\"default\" />\n  <background color=\"#0F172A\" />\n  <title style=\"font-size:34;color:#F8FAFC;text-align:居中;\">目录回看</title>\n  <section x=\"1.0\" y=\"1.7\" width=\"10.8\" height=\"4.8\" bg=\"#1E293B\" border=\"#334155\" padding=\"0.2\" gap=\"0.1\">\n    <toc />\n  </section>\n</slide>\n\n<slide>\n  <layout name=\"default\" />\n  <background color=\"#0F172A\" />\n  <title style=\"font-size:40;color:#F8FAFC;text-align:居中;\">测试结束</title>\n  <section x=\"1.8\" y=\"2.2\" width=\"9.2\" height=\"3.2\" bg=\"#1E293B\" border=\"#334155\" padding=\"0.22\" gap=\"0.12\">\n    <callout level=\"success\" title=\"下一步\" body=\"你先生成看看问题，我再给你系统总结 HTML 生成规范与排版细节。\" title-color=\"#FFFFFF\" body-color=\"#FFFFFF\" />\n    <button text=\"继续优化\" bg=\"#4F46E5\" color=\"#FFFFFF\" />\n  </section>\n</slide>",
+        "output",
+        "微软雅黑",
+        12.8,
+        7.2,
+        "http://192.168.110.227:8188"
+      ]
+    }
+  ],
+  "links": [
+    [
+      7,
+      11,
+      1,
+      12,
+      0,
+      "*"
+    ],
+    [
+      8,
+      13,
+      0,
+      11,
+      0,
+      "STRING"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 1.464100000000001,
+      "offset": [
+        -272.45131346982237,
+        -356.5023596718661
+      ]
+    },
+    "node_versions": {
+      "comfy-core": "0.3.71"
+    },
+    "frontendVersion": "1.28.9",
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0,
+    "VHS_MetadataImage": true,
+    "VHS_KeepIntermediate": true
+  },
+  "version": 0.4
+}

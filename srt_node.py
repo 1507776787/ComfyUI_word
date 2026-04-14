@@ -130,11 +130,6 @@ class TextToSRTNode:
             "result": (file_path, download_url)
         }
 
-    @classmethod
-    def IS_CHANGED(cls, 字幕内容, 文件名, **kwargs):
-        return hash((字幕内容 or "") + (文件名 or ""))
-
-
 NODE_CLASS_MAPPINGS = {
     "TextToSRT": TextToSRTNode,
 }

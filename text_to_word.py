@@ -141,11 +141,6 @@ class TextToWordNode:
             "result": (file_path, download_url)
         }
     
-    @classmethod
-    def IS_CHANGED(cls, 文字内容, 文件名, **kwargs):
-        return hash(文字内容 + 文件名)
-
-
 class TextToWordAdvancedNode:
     
     def __init__(self):
@@ -254,11 +249,6 @@ class TextToWordAdvancedNode:
             "result": (file_path, download_url)
         }
     
-    @classmethod
-    def IS_CHANGED(cls, 文字内容, 文件名, **kwargs):
-        return hash(文字内容 + 文件名)
-
-
 class SlideHTMLParser(HTMLParser):
     def __init__(self):
         super().__init__()
@@ -1467,11 +1457,6 @@ class HTMLToPPTNode:
             "result": (file_path, download_url)
         }
     
-    @classmethod
-    def IS_CHANGED(cls, HTML代码, 文件名, **kwargs):
-        return hash(HTML代码 + 文件名)
-
-
 NODE_CLASS_MAPPINGS = {
     "TextToWord": TextToWordNode,
     "TextToWordAdvanced": TextToWordAdvancedNode,
